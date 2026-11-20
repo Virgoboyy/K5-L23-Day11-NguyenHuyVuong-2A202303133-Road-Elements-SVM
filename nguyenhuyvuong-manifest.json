@@ -4,47 +4,45 @@
   "guideline": "Road v1.0",
   "name": "nguyenhuyvuong",
   "revision": 1,
-  "created_at": "2026-11-20T17:04:25+00:00",
+  "created_at": "2026-11-20T18:53:46+00:00",
   "files": [
     {
       "file": "nguyenhuyvuong-front.zip",
-      "bytes": 1496,
-      "sha256": "0231c87db83e9369a36393127eb7fa02d0e925e1ff0d24227a0c18e70d77db78",
+      "bytes": 7982,
+      "sha256": "415d15bf53238732d56e56e31964de3e855e4d5d4c273a364143a6093dd3466e",
       "contains_images": false,
       "images": 12,
       "images_unlabelled": 0,
       "images_all_tags": 12,
       "shapes_by_label": {
-        "crosswalk": 2,
-        "drivable": 15,
-        "lane": 29,
-        "road_curb": 2,
-        "traffic_light": 7,
-        "traffic_sign": 6
+        "crosswalk": 4,
+        "drivable": 33,
+        "lane": 38,
+        "road_curb": 7,
+        "traffic_light": 24,
+        "traffic_sign": 15
       }
     },
     {
       "file": "nguyenhuyvuong-fisheye.zip",
-      "bytes": 1152,
-      "sha256": "54f8809713d8164396c190d16f7e6c2efa82a6c80898cce372892204001e3d03",
+      "bytes": 2446,
+      "sha256": "fa533c652e85d1cf34af8906b9af074d60cc471b2eae0cdeca6b22c397a83598",
       "contains_images": false,
       "images": 8,
       "images_unlabelled": 0,
       "images_all_tags": 8,
       "shapes_by_label": {
-        "crosswalk": 4,
-        "drivable": 8,
-        "lane": 12,
-        "road_curb": 2,
-        "traffic_light": 1,
+        "drivable": 9,
+        "lane": 16,
+        "road_curb": 3,
         "traffic_sign": 1
       }
     }
   ],
   "lint": {
-    "nặng": 0,
+    "nặng": 2,
     "chính": 0,
-    "nhẹ": 1
+    "nhẹ": 2
   },
   "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
 }

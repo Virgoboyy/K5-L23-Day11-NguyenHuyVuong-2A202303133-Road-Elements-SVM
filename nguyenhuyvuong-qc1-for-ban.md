@@ -29,7 +29,7 @@ Số ảnh kiểm: 6 (+ 0 ảnh thêm, ghi riêng)           Số nhãn đã ki�
 ## Ca mơ hồ
 | Ảnh | Câu hỏi cho lead | Lời đáp (nếu có) |
 | --- | --- | --- |
-| Không có | — | — |
+| A05 | Không thấy vạch sơn phân làn L1/R1, chỉ có mép đường. Được miễn QC1-02 không? | Coach xác nhận được miễn QC1-02 theo CHECKPOINTS |
 
 ## Quyết định
 Lỗi nặng: 0   Lỗi chính: 1 / 45 nhãn = 2.2 %   Lỗi nhẹ: 0   Ca chờ lead: 0  

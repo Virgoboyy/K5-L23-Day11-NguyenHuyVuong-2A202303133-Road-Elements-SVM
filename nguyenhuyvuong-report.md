@@ -16,9 +16,9 @@ Cách đặt tag ảnh trên bản CVAT này: Chọn công cụ Tag ở thanh b�
 ## 2. Số lượng đã gán
 | Task | Ảnh | lane | road_curb | crosswalk | drivable | traffic_light | traffic_sign |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| front | 12 | 29 | 2 | 2 | 15 | 7 | 6 |
+| front | 12 | 38 | 7 | 4 | 33 | 24 | 15 |
 | front-extra (đã làm __ / 4) | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| fisheye | 8 | 12 | 2 | 4 | 8 | 1 | 1 |
+| fisheye | 8 | 16 | 3 | 0 | 9 | 0 | 1 |
 | fisheye-extra (đã làm __ / 4) | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## 3. Bảng ca khó
@@ -26,7 +26,7 @@ Cách đặt tag ảnh trên bản CVAT này: Chọn công cụ Tag ở thanh b�
 | --- | --- | --- | --- | --- |
 | A01 | traffic_sign | information và other | information | Biển báo bảo trì đường bộ chỉ dẫn thông tin tuyến đường |
 | A03 | lane | L1 và road_curb | lane (L1) | Sát con lươn có vạch sơn vàng liền rõ nét, gán L1 solid yellow |
-| A03 | traffic_light | red và green | red cho đèn trái, green cho đèn phải | Cụm đèn bên phải có bóng xanh đang sáng |
+| A05 | lane | vẽ vạch hay không | không vẽ L1/R1 | Ảnh đường không có vạch sơn phân làn rõ ràng, được miễn QC1-02 theo CHECKPOINTS |
 | B05 | lane | L1/R1 và other | other | Theo guideline, camera bên hông (MVL/MVR) luôn gán position = other |
 
 ## 4. Phiếu QC 1 nhận được
