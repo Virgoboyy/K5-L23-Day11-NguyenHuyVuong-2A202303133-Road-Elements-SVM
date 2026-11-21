@@ -30,13 +30,19 @@ Cách đặt tag ảnh trên bản CVAT này: Chọn công cụ Tag ở thanh b�
 | B05 | lane | L1/R1 và other | other | Theo guideline, camera bên hông (MVL/MVR) luôn gán position = other |
 
 ## 4. Phiếu QC 1 nhận được
-Bạn kiểm lô của tôi: Phan Lê Hoàng Phúc                Quyết định nhận được: Release (sau Rework/Buffer)  
+Bạn kiểm lô của tôi: Phan Lê Hoàng Phúc (`2A202603180`)        Quyết định nhận được: Rework (lần 1) → Đã sửa đợt Buffer (Revision 2)  
 | Mã lỗi | Số lỗi | Đồng ý? | Đã sửa? |
 | --- | ---: | --- | --- |
-| QC1-03 | 2 | Đồng ý | Đã chuẩn hóa position L1/R1, không trùng lặp position trên cùng một ảnh |
-| QC1-04 | 1 | Đồng ý | Đã đảo lại chiều vẽ polyline từ dưới lên trên (gần ra xa) theo quy tắc 2 |
-| QC1-11 | 2 | Đồng ý | Đã gán position = other cho camera bên hông (MVL, MVR) và gắn edge_zone = true cho vật thể mép ảnh |
-| Bổ sung | 8 | Đồng ý | Đã gán hoàn chỉnh 100% hai task mở rộng front-extra (4 ảnh) và fisheye-extra (4 ảnh) |
+| QC1-01 | 1 | Đồng ý | Đã sửa tag `weather = rain` ở A10 (mặt đường ướt, kính có mưa) |
+| QC1-03 | 4 | Đồng ý | Đã chuẩn hóa toàn bộ position: A04 sửa thành R1/R2, A10 sửa thành R1, B07 camera sườn phải sửa thành other |
+| QC1-04 | 1 | Đồng ý | Đã đảo lại chiều vẽ polyline ở A12 từ dưới lên trên (gần ra xa) theo quy tắc 2 |
+| QC1-06 | 3 | Đồng ý | Đã chỉnh style vạch đứt ở A12 và B07 từ `solid` sang `dashed` |
+| QC1-07 | 5 | Đồng ý | Đã gọt tỉa `drivable` không tràn vào dải đỗ xe (A10) hoặc làn ngược chiều (A04), bổ sung `road_curb` |
+| QC1-08 | 3 | Đồng ý | Đã bổ sung các cụm đèn giao thông còn thiếu ở A12 và B04 |
+| QC1-09 | 2 | Đồng ý | Đã đổi biển cấm No Parking (A10) và Do Not Enter (B04) từ information/warning sang `prohibitory` |
+| QC1-10 | 2 | Đồng ý | Đã bổ sung biển hiệu lệnh One Way và biển chỉ dẫn tên đường ở A12 |
+| QC1-11 | 1 | Đồng ý | Đã bật `edge_zone = true` cho biển báo sát mép cong ảnh ở B04 |
+| Bổ sung | 8 | Đồng ý | Đã hoàn thành 100% hai task mở rộng front-extra (4 ảnh) và fisheye-extra (4 ảnh) để nâng tổng dataset lên 28 ảnh |
 
 ## 5. Kiểm file export
 | File | Mở lại được? | Số shape ảnh 1 (job / file) | Số shape ảnh 2 (job / file) | Tag camera có trong XML? |
