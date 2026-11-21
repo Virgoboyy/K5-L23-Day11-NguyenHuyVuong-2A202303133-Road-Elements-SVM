@@ -30,7 +30,7 @@ Cách đặt tag ảnh trên bản CVAT này: Chọn công cụ Tag ở thanh b�
 | B05 | lane | L1/R1 và other | other | Theo guideline, camera bên hông (MVL/MVR) luôn gán position = other |
 
 ## 4. Phiếu QC 1 nhận được
-Bạn kiểm lô của tôi: [Bạn cùng bàn]                Quyết định nhận được: Release (sau Rework/Buffer)  
+Bạn kiểm lô của tôi: Phan Lê Hoàng Phúc                Quyết định nhận được: Release (sau Rework/Buffer)  
 | Mã lỗi | Số lỗi | Đồng ý? | Đã sửa? |
 | --- | ---: | --- | --- |
 | QC1-03 | 2 | Đồng ý | Đã chuẩn hóa position L1/R1, không trùng lặp position trên cùng một ảnh |
