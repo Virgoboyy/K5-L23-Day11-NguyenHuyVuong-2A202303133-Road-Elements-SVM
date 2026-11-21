@@ -3,37 +3,38 @@
   "format": "CVAT for images 1.1",
   "guideline": "Road v1.0",
   "name": "nguyenhuyvuong",
-  "revision": 1,
-  "created_at": "2026-11-20T18:53:46+00:00",
+  "revision": 2,
+  "created_at": "2026-11-21T03:52:18+00:00",
   "files": [
     {
       "file": "nguyenhuyvuong-front.zip",
-      "bytes": 7982,
-      "sha256": "415d15bf53238732d56e56e31964de3e855e4d5d4c273a364143a6093dd3466e",
+      "bytes": 10228,
+      "sha256": "511654b06c2e375a715daa9dfc6d81979b09ee9118fd7566575bdc17baba8380",
+      "contains_images": false,
+      "images": 16,
+      "images_unlabelled": 0,
+      "images_all_tags": 16,
+      "shapes_by_label": {
+        "crosswalk": 6,
+        "drivable": 44,
+        "lane": 48,
+        "road_curb": 7,
+        "traffic_light": 32,
+        "traffic_sign": 29
+      }
+    },
+    {
+      "file": "nguyenhuyvuong-fisheye.zip",
+      "bytes": 3978,
+      "sha256": "a18362e9b2ec0da678b56c787a40ef14bcc9ae222b1e3e2a43ee1b714c74bfbf",
       "contains_images": false,
       "images": 12,
       "images_unlabelled": 0,
       "images_all_tags": 12,
       "shapes_by_label": {
-        "crosswalk": 4,
-        "drivable": 33,
-        "lane": 38,
-        "road_curb": 7,
-        "traffic_light": 24,
-        "traffic_sign": 15
-      }
-    },
-    {
-      "file": "nguyenhuyvuong-fisheye.zip",
-      "bytes": 2446,
-      "sha256": "fa533c652e85d1cf34af8906b9af074d60cc471b2eae0cdeca6b22c397a83598",
-      "contains_images": false,
-      "images": 8,
-      "images_unlabelled": 0,
-      "images_all_tags": 8,
-      "shapes_by_label": {
-        "drivable": 9,
-        "lane": 16,
+        "crosswalk": 11,
+        "drivable": 10,
+        "lane": 7,
         "road_curb": 3,
         "traffic_sign": 1
       }
